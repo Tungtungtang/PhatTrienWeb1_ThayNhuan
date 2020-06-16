@@ -1,0 +1,94 @@
+.module-1563 .show-transition .manipulation a {
+  display: flex;
+  justify-content: center;
+  align-items: center; }
+
+.module-1563 .show-transition .page-other .link_img div::after, .module-1563 .show-transition .page-other .link_img div::before {
+  content: "";
+  width: 214px;
+  position: absolute;
+  height: 100%;
+  left: 0;
+  transition: all 0.2s ease; }
+
+@media (max-width: 550px) {
+  .module-1563 {
+    display: none; } }
+.module-1563 .backgroud-module {
+  width: 100%;
+  height: 100%;
+  top: 0; }
+.module-1563 .show-transition {
+  width: 500px;
+  height: 100%;
+  background: #fff;
+  top: 0;
+  z-index: 999;
+  right: -502px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.25);
+  transition: all 0.5s ease; }
+  .module-1563 .show-transition .page-other {
+    background: #fff;
+    overflow-y: scroll;
+    height: 100%; }
+    .module-1563 .show-transition .page-other .link_img {
+      width: 225px;
+      height: 171px; }
+      .module-1563 .show-transition .page-other .link_img div::after {
+        background: #000;
+        opacity: 0.2; }
+      .module-1563 .show-transition .page-other .link_img div::before {
+        opacity: 0;
+        border: 2px solid #1ebac8;
+        z-index: 1; }
+    .module-1563 .show-transition .page-other .link_img:hover div::after {
+      opacity: 0;
+      transition: all 0.2s ease; }
+    .module-1563 .show-transition .page-other .link_img:hover div::before {
+      opacity: 1;
+      transition: all 0.2s ease; }
+    .module-1563 .show-transition .page-other .select-link {
+      padding: 25px 0px 0 22px; }
+      .module-1563 .show-transition .page-other .select-link .box-title span {
+        font-size: 14px;
+        opacity: 0.5;
+        font-weight: 500; }
+      .module-1563 .show-transition .page-other .select-link .box-title span::after {
+        content: "";
+        position: absolute;
+        top: 50%;
+        z-index: 1;
+        width: 328px;
+        height: 2px;
+        background: #eaeaea;
+        left: 112px; }
+  .module-1563 .show-transition .manipulation {
+    background: #fff;
+    top: 100px;
+    left: -50px;
+    box-shadow: 0 0 6px rgba(0, 0, 0, 0.25); }
+    .module-1563 .show-transition .manipulation a {
+      height: 50px;
+      width: 50px;
+      cursor: pointer; }
+      .module-1563 .show-transition .manipulation a img {
+        transition: all 0.2s ease;
+        opacity: 0.7;
+        width: 28px;
+        height: 28px; }
+        .module-1563 .show-transition .manipulation a:hover img {
+          opacity: 1;
+          width: 32px;
+          height: 32px;
+          transition: all 0.2s ease; }
+    .module-1563 .show-transition .manipulation__open::before {
+      content: "";
+      position: absolute;
+      left: 9px;
+      bottom: 0px;
+      width: 32px;
+      height: 1px;
+      background: #eaeaea; }
+.module-1563 .show-demo {
+  right: 0;
+  transition: all 0.5s ease; }

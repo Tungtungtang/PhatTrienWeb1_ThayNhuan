@@ -1,0 +1,137 @@
+$color: #eaeaea;
+$color_hover:#1ebac8;
+$transition: all 0.2s ease;
+$transition_show: all 0.5s ease;
+$img_width: 28px;
+$img_height: 28px;
+$img_width_hover: 32px;
+$img_height_hover: 32px;
+
+%manipulation_icon {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+%img_after_before {
+    content: "";
+    width: 214px;
+    position: absolute;
+    height: 100%;
+    left: 0;
+    transition: $transition;
+}
+
+.module-1563 {
+    @media (max-width: 550px) {
+        display: none;
+    }
+    .backgroud-module {
+        width: 100%;
+        height: 100%;
+        top: 0;
+    }
+    .show-transition {
+        width: 500px;
+        height: 100%;
+        background: #fff;
+        top: 0;
+        z-index: 999;
+        right: -502px;
+        box-shadow: 0 0 6px rgba(0, 0, 0, .25);
+        transition: $transition_show;
+        .page-other {
+            background: #fff;
+            overflow-y: scroll;
+            height: 100%;
+            .link_img {
+                width: 225px;
+                height: 171px;
+                div {
+                    &::after {
+                        @extend %img_after_before;
+                        background: #000;
+                        opacity: 0.2;
+                    }
+                    &::before {
+                        @extend %img_after_before;
+                        opacity: 0;
+                        border: 2px solid $color_hover;
+                        z-index: 1;
+                    }
+                }
+                &:hover {
+                    div {
+                        &::after {
+                            opacity: 0;
+                            transition: $transition;
+                        }
+                        &::before {
+                            opacity: 1;
+                            transition: $transition;
+                        }
+                    }
+                }
+            }
+            .select-link {
+                padding: 25px 0px 0 22px;
+                .box-title {
+                    span {
+                        font-size: 14px;
+                        opacity: 0.5;
+                        font-weight: 500;
+                    }
+                    span::after {
+                        content: "";
+                        position: absolute;
+                        top: 50%;
+                        z-index: 1;
+                        width: 328px;
+                        height: 2px;
+                        background: $color;
+                        left: 112px;
+                    }
+                }
+            }
+        }
+        .manipulation {
+            background: #fff;
+            top: 100px;
+            left: -50px;
+            box-shadow: 0 0 6px rgba(0, 0, 0, .25);
+            a {
+                height: 50px;
+                width: 50px;
+                cursor: pointer;
+                @extend %manipulation_icon;
+                img {
+                    transition: $transition;
+                    opacity: 0.7;
+                    width: $img_width;
+                    height: $img_height;
+                }
+                &:hover {
+                    img {
+                        opacity: 1;
+                        width: $img_width_hover;
+                        height: $img_height_hover;
+                        transition: $transition;
+                    }
+                }
+            }
+            &__open::before {
+                content: "";
+                position: absolute;
+                left: 9px;
+                bottom: 0px;
+                width: $img_width_hover;
+                height: 1px;
+                background: $color;
+            }
+        }
+    }
+    .show-demo {
+        right: 0;
+        transition: $transition_show;
+    }
+}
