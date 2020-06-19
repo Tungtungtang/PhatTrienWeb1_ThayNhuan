@@ -15,7 +15,7 @@ $url_path = str_replace('\\', '/', $url_path);
 		file_put_contents("css/1578.css", $style);
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
 	<title>Module-1578</title>
 	<meta charset="UTF-8">

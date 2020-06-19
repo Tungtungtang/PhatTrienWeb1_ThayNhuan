@@ -18,7 +18,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
 	<title>Module-1573</title>
 	<meta charset="UTF-8">
@@ -27,7 +27,7 @@ $url_path = str_replace('\\', '/', $url_path);
 	<link href="<?php echo $url_path ?>/css/1573.css" rel="stylesheet" type="text/css" />
 	<link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<link href="<?php echo $url_path ?>/css/font-awesome.min.css" rel="stylesheet" type="text/css" />
-	<script language="JavaScript" type="text/javascript" src="<?php echo $url_path ?>/js/1573.js"></script>
+	<script  src="<?php echo $url_path ?>/js/1573.js"></script>
 </head>
 <body>
 	<?php include '../1573/1573-content.php'; ?>

@@ -3,7 +3,7 @@
 		<div class="row module-row">
 			<div class="col-md-4 left" >
 				<div class="image-left">
-					<img src="./images/mob-small-logo.png">
+					<img alt="#" src="./images/mob-small-logo.png">
 				</div>
 				<div class="content-left">
 					<p>Lorem ipsum dolor – sit amet, consectetur adipiscing elit. Ut tellus, luctus nec mattis. Curabitur eu massa id ex placerat interdum elit dolor met. </p>
@@ -17,7 +17,7 @@
 					<form class="form-center">
     					<input type="text" name="email" placeholder="Email" style="width: 100%"/>
 					</form>
-					<button class="subcribe-center" color: white;"> SUBSCRIBE</button>
+					<button class="subcribe-center"> SUBSCRIBE</button>
 				</div>
 			</div>
 			<div class="col-md-4 right">

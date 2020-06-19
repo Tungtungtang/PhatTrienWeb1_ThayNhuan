@@ -16,7 +16,7 @@ $url_path = str_replace('\\', '/', $url_path);
 		file_put_contents("css/1563.css", $style);
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
 	<title>Module-1563</title>
 	<meta charset="UTF-8">
@@ -24,7 +24,7 @@ $url_path = str_replace('\\', '/', $url_path);
 	<link href="<?php echo $url_path ?>/css/1563.css" rel="stylesheet" type="text/css" />
 	<link href="<?php echo $url_path ?>/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
 	<script src="<?php echo $url_path ?>/js/jquery-3.5.1.min.js"></script>
-    <script language="JavaScript" type="text/javascript" src="<?php echo $url_path ?>/js/1563.js"></script>
+    <script src="<?php echo $url_path ?>/js/1563.js"></script>
 </head>
 <body>
 	<?php include '../1563/1563-content.php'; ?>

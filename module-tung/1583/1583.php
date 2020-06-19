@@ -17,7 +17,7 @@ $url_path = str_replace('\\', '/', $url_path);
 
 ?>
 <!DOCTYPE html>
-<html>
+<html lang="vi">
 <head>
 	<title>Module-1583</title>
 	<meta charset="UTF-8">
