@@ -1,0 +1,20 @@
+.module-1583 {
+  margin: 30px; }
+  .module-1583 .flex-container {
+    display: flex;
+    flex-wrap: wrap; }
+  .module-1583 .flex-container {
+    margin-top: 20px; }
+    .module-1583 .flex-container .img {
+      width: 150px;
+      text-align: center;
+      line-height: 75px;
+      font-size: 30px; }
+  .module-1583 .nav-fill {
+    width: 300px;
+    margin-left: 350px; }
+  .module-1583 a {
+    color: black; }
+    .module-1583 a:hover {
+      color: #a8642a;
+      text-decoration: none; }

@@ -1,0 +1,28 @@
+$colorHover: #a8642a;
+$width-img:150px;
+.module-1583{
+    margin:30px;
+    .flex-container {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flex-container{
+     margin-top:20px;
+      .img {
+        width: $width-img;
+        text-align: center;
+        line-height: 75px;
+        font-size: 30px;
+        }  
+    }
+    .nav-fill{
+      width: 300px; margin-left: 350px;
+    }
+    a{
+      color: black;
+      &:hover{
+        color: $colorHover;
+        text-decoration: none;
+      }
+    }
+}

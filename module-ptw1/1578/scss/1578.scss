@@ -1,0 +1,66 @@
+$width-module:350px;
+$height-module:350px;
+$margin-top:50px;
+$margin-bot:50px;
+$color_the_a:#a5a8aa;
+$color_hover:#a8642a;
+.module-1578{
+	.module-container{
+		width:$width-module;
+        height: $height-module;
+		border: 4px solid #000;
+		padding-top: 20px;
+		text-align: center;
+        margin-top:$margin-top;
+        margin-bottom:$margin-bot;
+		a{	
+     		text-decoration: none;
+     		color:$color_the_a;
+                padding:10px;
+                font-size:13px;
+     			&:hover{
+     				color:$color_hover;
+     			}
+     	}
+        .text-title{
+            margin-top:15px;
+        }
+		.fashion{
+			padding-top: 20px;
+			.content-left
+			{
+				padding-top: 20px;
+			}
+			.text-fashion
+			{
+				color: black;
+				&:hover{
+     				color:#color_hover;
+     			}
+			}
+		}
+		.beauty{
+			padding-top: 20px;
+
+     		.text-beauty{
+     			color: black;
+     			&:hover{
+     				color:#color_hover;
+     			}
+     		}
+		}
+		.lifestyle{
+			padding-top: 20px;
+     		.text-lifestyle{
+     			color: black;
+     			&:hover{
+     				color:#color_hover;
+     			}
+     		}
+		}
+		.cart{
+			padding-top: 20px;
+			padding-bottom:20px;
+		}
+	}
+}
