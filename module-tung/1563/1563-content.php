@@ -11,7 +11,6 @@
                 <a href="#" title="Purchase The7">
                     <img src="./images/icon-buy.svg" alt="">
                 </a>
-
         </div>
         <div class="page-other position-absolute">
             <div class="select-link">

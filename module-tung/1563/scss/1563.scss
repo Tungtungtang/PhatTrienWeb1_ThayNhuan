@@ -8,12 +8,14 @@ $img_width_hover: 32px;
 $img_height_hover: 32px;
 
 %manipulation_icon {
+    //hiển thị 2 nút setting và addcart ở góc màn hình
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
 %img_after_before {
+    //khi click vô hình hiển thị translation.
     content: "";
     width: 214px;
     position: absolute;
@@ -29,8 +31,10 @@ $img_height_hover: 32px;
     .backgroud-module {
         width: 100%;
         height: 100%;
-        top: 0;
+        top: 1000px;
     }
+
+    //hiển thị menu khi click vào icon setting
     .show-transition {
         width: 500px;
         height: 100%;
@@ -41,13 +45,15 @@ $img_height_hover: 32px;
         box-shadow: 0 0 6px rgba(0, 0, 0, .25);
         transition: $transition_show;
         .page-other {
+            //có thể scroll được sản phẩm
             background: #fff;
             overflow-y: scroll;
             height: 100%;
             .link_img {
+                //kích thước hình khi hiển thị
                 width: 225px;
                 height: 171px;
-                div {
+                .position-relative {
                     &::after {
                         @extend %img_after_before;
                         background: #000;
@@ -60,8 +66,9 @@ $img_height_hover: 32px;
                         z-index: 1;
                     }
                 }
+              
                 &:hover {
-                    div {
+                    .position-relative {
                         &::after {
                             opacity: 0;
                             transition: $transition;
@@ -73,6 +80,7 @@ $img_height_hover: 32px;
                     }
                 }
             }
+            //làm See other demos ở đầu dòng
             .select-link {
                 padding: 25px 0px 0 22px;
                 .box-title {
@@ -130,6 +138,7 @@ $img_height_hover: 32px;
             }
         }
     }
+    //chạy js
     .show-demo {
         right: 0;
         transition: $transition_show;
