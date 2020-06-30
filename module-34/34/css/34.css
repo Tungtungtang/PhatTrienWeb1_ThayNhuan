@@ -19,6 +19,8 @@
       .module-34 .container-34 a:hover {
         background: none;
         color: #88B44E; }
+        .module-34 .container-34 a:hover .right {
+          transform: rotate(90deg); }
     .module-34 .container-34 .menu {
       margin: 50px; }
     .module-34 .container-34 .navbar-right {
@@ -29,12 +31,6 @@
       position: relative;
       display: inline-block;
       color: black; }
-      .module-34 .container-34 .dropdown .down {
-        display: none; }
-        .module-34 .container-34 .dropdown:hover .right {
-          display: none; }
-        .module-34 .container-34 .dropdown:hover .down {
-          display: inline; }
     .module-34 .container-34 .dropdown-content {
       padding-left: 15px;
       line-height: 4rem;

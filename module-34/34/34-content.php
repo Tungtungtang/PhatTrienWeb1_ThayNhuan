@@ -10,8 +10,9 @@
 						<li class="dropdown">
 							<a class="home" href="#">Home
 								<i class="fa fa-angle-right right" aria-hidden="true"></i>
-								<i class="fa fa-angle-down down" aria-hidden="true"></i>
 							</a>
+
+
 							<div class="dropdown-content">
 								<a class="dropdown-item" href="#">Tea Production</a>
 								<div class="dropdown-divider"></div>
@@ -21,7 +22,6 @@
 						<li class="dropdown">
 							<a href="#">About us
 								<i class="fa fa-angle-right right" aria-hidden="true"></i>
-								<i class="fa fa-angle-down down" aria-hidden="true"></i>
 							</a>
 							<div class="dropdown-content">
 								<a class="dropdown-item" href="#">About Company</a>
@@ -38,7 +38,6 @@
 						<li class="dropdown">
 							<a href="#">Products
 								<i class="fa fa-angle-right right" aria-hidden="true"></i>
-								<i class="fa fa-angle-down down" aria-hidden="true"></i>
 							</a>
 							<div class="dropdown-content">
 								<a class="dropdown-item" href="#">Tea Production</a>
@@ -49,7 +48,6 @@
 						<li class="dropdown">
 							<a href="#">Blog
 								<i class="fa fa-angle-right right" aria-hidden="true"></i>
-								<i class="fa fa-angle-down down" aria-hidden="true"></i>
 							</a>
 							<div class="dropdown-content">
 								<a class="dropdown-item" href="#">Tea Production</a>
@@ -60,7 +58,6 @@
 						<li class="dropdown">
 							<a href="#">Gallery
 								<i class="fa fa-angle-right right" aria-hidden="true"></i>
-								<i class="fa fa-angle-down down" aria-hidden="true"></i>
 							</a>
 							<div class="dropdown-content">
 								<a class="dropdown-item" href="#">Tea Production</a>
